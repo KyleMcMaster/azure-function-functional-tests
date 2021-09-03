@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kyle.McMaster.Employee.Functions.Tests", "test\Kyle.McMaster.Employee.Functions.Tests\Kyle.McMaster.Employee.Functions.Tests.csproj", "{7F9F3E3B-F8A4-4D17-89FB-F41580FDED1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FCE19AC8-0FE3-4444-83BB-B49E7F482DD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{72154952-6B04-4C5B-9386-4C512ACC9AE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kyle.McMaster.Employee.Functions", "src\Kyle.McMaster.Employee.Functions\Kyle.McMaster.Employee.Functions.csproj", "{FDB74F86-80BF-4998-B8C4-3A1AF952635D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F9F3E3B-F8A4-4D17-89FB-F41580FDED1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9F3E3B-F8A4-4D17-89FB-F41580FDED1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9F3E3B-F8A4-4D17-89FB-F41580FDED1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9F3E3B-F8A4-4D17-89FB-F41580FDED1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB74F86-80BF-4998-B8C4-3A1AF952635D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB74F86-80BF-4998-B8C4-3A1AF952635D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB74F86-80BF-4998-B8C4-3A1AF952635D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB74F86-80BF-4998-B8C4-3A1AF952635D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F9F3E3B-F8A4-4D17-89FB-F41580FDED1A} = {72154952-6B04-4C5B-9386-4C512ACC9AE2}
+		{FDB74F86-80BF-4998-B8C4-3A1AF952635D} = {FCE19AC8-0FE3-4444-83BB-B49E7F482DD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68FA98FC-0EDD-4D03-919B-7C76C163F3FB}
+	EndGlobalSection
+EndGlobal
